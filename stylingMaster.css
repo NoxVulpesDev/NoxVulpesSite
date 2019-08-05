@@ -1,3 +1,7 @@
 .head-Div{
   font: arial;
 }
+.body-Div{
+  position: absolute;
+  font: comic;
+}
