@@ -1,7 +1,7 @@
 .head-Div{
-  font: arial;
+  font-family: "Arial", Arial, sans-serif;
 }
 .body-Div{
   position: absolute;
-  font: comic;
+  font-family: "Comic sans", Comic, sans-serif;
 }
