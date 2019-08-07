@@ -3,11 +3,13 @@ body{
   background: #dadada;
 }
 h1{
+  margin: 0px;
   color: white;
   text-align: left;
   font-size: 30px;
-  padding: 4px;
-  padding-left: 6px;
+  padding-top: 10px;
+  padding-left: 8px;
+  padding-bottom: 10px;
 }
 p{
   padding:5px;
@@ -35,5 +37,5 @@ p{
 }
 .Div-right{
   max-width: 41.66%;
-  background: url("portrait.png")
+  background: url("portrait.png");
 }
