@@ -1,11 +1,12 @@
 body{
+  margin:0px;
   background: #dadada;
 }
 h1{
   color: white;
   text-align: left;
   font-size: 30px;
-  padding: 2px;
+  padding: 4px;
   padding-left: 6px;
 }
 p{
@@ -13,6 +14,7 @@ p{
 }
 
 .head-One{
+  margin-top: 0px;
   text-align: center;
   font-family: "calibri", calibri, sans-serif;
   background-color: black;
@@ -20,6 +22,7 @@ p{
 }
 
 .body-Div{
+  margin:0px;
   position: relative: ;
   font-family: "sans serif", Comic, sans-serif;
   width: 66.66%;
