@@ -1,7 +1,16 @@
+body{
+  background: #dadada
+}
+
 .head-Div{
   font-family: "Arial", Arial, sans-serif;
 }
 .body-Div{
   position: absolute;
   font-family: "Comic sans", Comic, sans-serif;
+  height: 100%;
+  with: 66.66%
+}
+.spacer-Div{
+  width: 16.66%
 }
