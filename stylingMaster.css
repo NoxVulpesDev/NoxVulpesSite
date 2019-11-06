@@ -40,7 +40,7 @@ li{
   font-family: "calibri", calibri, sans-serif;
   background-color: #000000;
   background-position-y: 10000px;
-  position:fixed;
+  position: absolute;
   bottom: 0;
   padding: 0px;
   width: 100%;
