@@ -6,7 +6,7 @@ function readyCheck(){
 
   }
 
-document.getElementByID("portrait").onMouseOver = function(){enbiggen(this);};
+document.getElementById("portrait").onMouseOver = function(){enbiggen(this);};
 
 }
 document.addEventListener("DOMContentLoaded", readyCheck);
