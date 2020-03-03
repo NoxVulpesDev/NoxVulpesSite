@@ -61,8 +61,11 @@
             
         
     </div>
-    
-        
+    <script>
+    pca.on("load", function (type, id, control) {
+        control.options.countries.prepopulate = false;
+    });
+    </script>    
 
 </body>
 </html>
