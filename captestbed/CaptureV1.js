@@ -113,7 +113,7 @@ function Capture_Interactive_Find_v1_00End(response) {
                 var cell = row.insertCell(z);
                 cell.innerHTML = response.Items[i][header[z]]
             }
-            selectOptions.options[i] = new Option(response.Items[i].Text + ", " + response.Items[i].Description, response.Items[i].Id + ',' + response.Items[i].Type);
+            selectOptions.options[i] = new Option(response.Items[i].Text + "¬ " + response.Items[i].Description, response.Items[i].Id + '¬' + response.Items[i].Type);
         };
     }
     dropdownExp();
@@ -246,7 +246,7 @@ function retrieveExe() {
     var selectOptions = document.getElementById("select");
     var selectValue = selectOptions.options[selectOptions.selectedIndex].value;
     var selectText = selectOptions.options[selectOptions.selectedIndex].innerHTML;
-    var addId = selectValue.split(',');
+    var addId = selectValue.split('¬');
     Capture_Interactive_Retrieve_v1_00Begin(addId, selectText);
 };
 
