@@ -28,7 +28,7 @@ function Capture_Interactive_Find_v1_00Begin(Text, container) {
     destTab();
     var script = document.createElement("script"),
         head = document.getElementsByTagName("head")[0],
-        url = "http://services.postcodeanywhere.co.uk/Capture/Interactive/Find/v1.00/json3.ws?";
+        url = "http://services.postcodeanywhere.co.uk/Capture/Interactive/Find/v1.10/json3.ws?";
     // Build the query string
     url += "&Key=" + document.getElementById("key").value;;
     url += "&Text=" + encodeURIComponent(Text);
