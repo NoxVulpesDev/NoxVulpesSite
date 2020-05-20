@@ -33,7 +33,9 @@ body {
 .col-50 {
   -ms-flex: 50%; /* IE10 */
   flex: 50%;
+
 }
+
 
 .col-75 {
   -ms-flex: 75%; /* IE10 */
@@ -59,6 +61,7 @@ input[type=text] {
   padding: 12px;
   border: 1px solid #ccc;
   border-radius: 3px;
+  display: inline;
 }
 
 label {
@@ -110,4 +113,38 @@ span.price {
   .col-25 {
     margin-bottom: 20px;
   }
+}
+
+.input-container{
+  display: flex;
+}
+
+.tooltip{
+  position: relative;
+  display: inline-block;
+  /*border: 1px dotted black;*/
+  float: right;
+  text-align: center;
+  padding: 11px;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 400px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 105%;
+  margin-left: -60px
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
 }
